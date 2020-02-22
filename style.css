@@ -1,0 +1,85 @@
+h1{
+    color: blue;
+}
+.listItem{
+    height: 40px;
+    font-size: 16px;
+    background-color: #232542;
+    color: #6576AB;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.listItemMouseUp{
+    color: white;
+    font-weight: bold;
+}
+.siteContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.rouletteContainer{
+    display: flex;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    background-color: #232542;
+    padding: 20px;
+}
+.rouletteItemsLine{
+    display: flex;
+    height: 100px;
+    position: relative;
+    padding-left: 200px ;
+}
+#rouletteWinLine{
+    width: 1px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    left: 270px;
+    top: 10px;
+
+}
+#startBtn{
+    color: white;
+    position: absolute;
+    left : 175px;
+    top : 170px;
+    background-color: #6576AB;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 200px;
+    font-size: 24px;
+}
+#startBtn:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.rouletteItem{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+/*
+po elemencie za 1 pkt
+po klasie za 10pkt
+po id 100pkt
+1000*/
